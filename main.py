@@ -125,8 +125,8 @@ def main(user, passwd, step):
     #print(response)
     result = f"{user[:4]}****{user[-4:]}: [{now}] 修改步数（{step}）"+ response['message']
     print(result)
-    qqtalk = 'https://qmsg.zendee.cn/send/KYE?msg=' + "修改步数：" + step + "  " + response[
-        'message'] + '&qq=QQ'
+    qqtalk = 'https://qmsg.zendee.cn/send/e6b0c2a37b9836dc40912ccd583618c7?msg=' + "修改步数：" + step + "  " + response[
+        'message'] + '&qq=2088437179'
     requests.get(qqtalk)
     return result
 #修改上方的KYE和QQ
@@ -155,7 +155,7 @@ def main_handler():
     # 登录密码（用#隔开，例如123456#123456#123456）
     passwd = "xiunan123"
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数20000至29999之间
-    step = "10842"
+    step = "6503"
 
     user_list = user.split('#')
     passwd_list = passwd.split('#')
