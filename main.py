@@ -3,8 +3,8 @@
 import requests,time,re,json,random
 import os
 
-TG_BOT_TOKEN = "6938660955:AAH-tmGD-Md6Va_okB8op3u5zeV2Sf6qJD0"           # telegram bot token 自行申请
-TG_USER_ID = "6359903667"             # telegram 用户ID
+TG_BOT_TOKEN = "*"           # telegram bot token 自行申请
+TG_USER_ID = "*"             # telegram 用户ID
 
 def telegram_bot(title, content):
     print("\n")
@@ -151,11 +151,11 @@ def get_app_token(login_token):
 # def main_handler(event, context):
 def main_handler():
     # 用户名（单用户的格式为 13800138000 ，多用户用#隔开，例如13800138000#13800138000#13800138000）
-    user = "xoy.vip@outlook.com"
+    user = "*"
     # 登录密码（用#隔开，例如123456#123456#123456）
-    passwd = "xiunan123"
+    passwd = "*"
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数20000至29999之间
-    step = "7603"
+    step = "*"
 
     user_list = user.split('#')
     passwd_list = passwd.split('#')
