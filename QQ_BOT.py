@@ -10,5 +10,5 @@ import requests
 
 # response = requests.post(url, data=data, headers=head).json()
 
-qqtalk = 'https://qmsg.zendee.cn/send/e6b0c2a37b9836dc40912ccd583618c7?msg=' + "修改步数："  + '&qq=2088437179'
+qqtalk = 'https://qmsg.zendee.cn/send/e6b0c2a37b9836dc40912ccd583618c7?msg=' + "修改步数："  + '&qq=*'
 requests.get(qqtalk)
