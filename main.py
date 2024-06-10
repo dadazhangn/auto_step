@@ -155,7 +155,7 @@ def main_handler():
     # 登录密码（用#隔开，例如123456#123456#123456）
     passwd = "xiunan123"
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数20000至29999之间
-    step = "5988"
+    step = "8203"
 
     user_list = user.split('#')
     passwd_list = passwd.split('#')
